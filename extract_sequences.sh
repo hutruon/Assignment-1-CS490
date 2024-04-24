@@ -1,10 +1,7 @@
 #!/bin/bash
 
 # Define the path to the reference genome using the absolute path
-reference_genome="/users/hutruon/Assignment-1-CS490/references/hg38.fa"
-
-# Navigate to the Data directory where BED files are located
-cd Data || exit
+reference_genome="/Users/hungtruong/Desktop/School/cs490/FinalProject/Assignment-1-CS490/hg38.fa"
 
 # Loop through each BED file in the Data directory
 for bed_file in *.bed; do
