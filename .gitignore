@@ -1,1 +1,4 @@
 references/hg38.fa
+Data/train_data.txt
+Data/merged_data.txt
+train_data.txt
